@@ -1,9 +1,41 @@
-This is my own attempt at creating a template for my web development. So far I'm just working with HTML and CSS and just getting started a little with JS. I'm doing my CSS in SASS and my HTML in HAML so I've got those files in place. I'm assuming that when I set up the project in my preprocessor I'll tell it where to put the styles.css and index.haml files so as of right now I don't have any of those config files in place. 
+This is my own attempt at creating a template for my web development. So far I'm just working with HTML and CSS and just getting started a little with JS. I'm doing my CSS in SASS and my HTML in HAML so I've got those files in place. I'm assuming that when I set up the project in my preprocessor I'll tell it where to put the styles.css and index.haml files so as of right now I don't have any of those config files in place.
+
+Here's the overall structure of this template:
+
+root/
+readme.md
+css/
+haml/
+  |
+  `--index.haml           # Index file for site
+js/
+scss/
+  |
+  |--modules/             # Common modules
+  |   |--_all.scss        # Include to get all modules
+  |   |--_colors.scss     
+  |   `--_utility.scss
+  |
+  |--partials/
+  |   |--_base.scss
+  |   |--_buttons.scss
+  |   |--_figures.scss
+  |   |--_grids.scss
+  |   |--_reset.scss
+  |   |--_state.scss
+  |   `--_typography.scss
+  |
+  |--vendor/
+  |
+  `--styles.scss
+
+
+
 
 // Here's the overall structure to this base styles template:
 scss/
 |
-|-- modules/              # Common modules
+|-- modules/              
 |   |-- _all.scss         # Include to get all modules
 |      |-- _utility.scss  # Module name
 |      |-- _colors.scss   # Etc...
