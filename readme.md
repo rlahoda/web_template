@@ -53,4 +53,5 @@ This is my own attempt at creating a template for my web development. So far I'm
 
 
 
+
 _Adapted from [http://thesassway.com/beginner/how-to-structure-a-sass-project](http://thesassway.com/beginner/how-to-structure-a-sass-project)_
