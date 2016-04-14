@@ -360,6 +360,98 @@ textarea {
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
+.base-clr-bkg {
+  background-color: #2ca8c8; }
+
+.base-clr-clr {
+  color: #2ca8c8; }
+
+.base-clr-bdr {
+  border-color: #2ca8c8; }
+
+button.base-clr-bkg:hover {
+  background-color: #79cce1; }
+
+.base-20l-bkg {
+  background-color: #79cce1; }
+
+.base-20l-clr {
+  color: #79cce1; }
+
+.base-20l-bdr {
+  border-color: #79cce1; }
+
+button.base-20l-bkg:hover {
+  background-color: #2ca8c8; }
+
+.base-20d-bkg {
+  background-color: #1a6274; }
+
+.base-20d-clr {
+  color: #1a6274; }
+
+.base-20d-bdr {
+  border-color: #1a6274; }
+
+button.base-20d-bkg:hover {
+  background-color: #2ca8c8; }
+
+.accent-clr-bkg {
+  background-color: #e71414; }
+
+.accent-clr-clr {
+  color: #e71414; }
+
+.accent-clr-bdr {
+  border-color: #e71414; }
+
+button.accent-clr-bkg:hover {
+  background-color: #f26f6f; }
+
+.accent-20l-bkg {
+  background-color: #f26f6f; }
+
+.accent-20l-clr {
+  color: #f26f6f; }
+
+.accent-20l-bdr {
+  border-color: #f26f6f; }
+
+button.accent-20l-bkg:hover {
+  background-color: #e71414; }
+
+.accent-20d-bkg {
+  background-color: #890c0c; }
+
+.accent-20d-clr {
+  color: #890c0c; }
+
+.accent-20d-bdr {
+  border-color: #890c0c; }
+
+button.accent-20d-bkg:hover {
+  background-color: #e71414; }
+
+input {
+  background-color: #ccecf4;
+  border-color: #1a6274;
+  border-radius: 10px;
+  padding: 15px;
+  border-style: solid; }
+
+.tintbox {
+  width: 40px;
+  height: 60px;
+  float: left;
+  margin-top: 60px; }
+
+.tintbox_main {
+  height: 120px;
+  float: left; }
+
+.clearfix {
+  clear: both; }
+
 body {
   font-family: sans-serif; }
 
@@ -451,5 +543,10 @@ blockquote {
     /* 24px / 16px = */
     line-height: 1.45833333;
     /* 35px / 24px */ } }
+button {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  padding: 15px 20px; }
 
 /*# sourceMappingURL=styles.css.map */
