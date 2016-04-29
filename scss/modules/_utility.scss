@@ -1,4 +1,4 @@
-input{
+input {
   background-color: lighten($base-20l, 20);
   border-color: $base-20d;
   border-radius: $border-radius;
@@ -6,19 +6,19 @@ input{
   border-style: solid;
 }
 
-.tintbox{
+.tintbox {
   width: 40px;
   height: 60px;
   float: left;
   margin-top: 60px;
 
 }
-.tintbox_main{
+
+.tintbox_main {
   height: 120px;
   float: left;
 }
 
-
-.clearfix{
-  clear:both;
+.clearfix {
+  clear: both;
 }
