@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NPM Debugging Logs
 *.log
 
@@ -9,3 +10,7 @@ node_modules
 
 # Temporary Files
 *.tmp *~
+=======
+*.codekit
+*.DS_Store
+>>>>>>> 6ffcd0aadc7b7064edc9ef6d156577ad02699ad7
